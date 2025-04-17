@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erro no Saque</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+    }
+    h1 {
+      color: #e53935;
+      font-size: 24px;
+    }
+    p {
+      color: #444;
+      font-size: 16px;
+      margin: 20px 0;
+    }
+    .btn-pagar {
+      background-color: #28a745;
+      color: white;
+      padding: 14px 26px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .btn-pagar:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Erro no Processamento do Saque</h1>
+    <p>Ocorreu uma falha na liberação do seu saque. Para que o valor seja reembolsado corretamente, é necessário o pagamento da <strong>Taxa de Regularização Bancária</strong>.</p>
+    <p>Essa taxa é obrigatória e garante a confirmação dos dados bancários para liberação imediata do seu valor.</p>
+    <a href="#" class="btn-pagar">Pagar Taxa e Regularizar</a>
+  </div>
+</body>
+</html>
