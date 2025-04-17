@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Pay - Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #000000, #1a1a1a);
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: white;
+    }
+    .login-container {
+      background-color: #111;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      max-width: 360px;
+      width: 100%;
+      text-align: center;
+    }
+    .logo {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      background-color: #222;
+      color: white;
+    }
+    .btn-acessar {
+      background-color: #fe2c55;
+      color: white;
+      padding: 14px;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .btn-acessar:hover {
+      background-color: #d9254a;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/TikTok_logo.svg" alt="TikTok Logo" class="logo">
+    <h1>Entrar no TikTok Pay</h1>
+    <form>
+      <input type="text" placeholder="Nome completo" required>
+      <input type="email" placeholder="E-mail" required>
+      <button type="submit" class="btn-acessar">Acessar Aplicativo</button>
+    </form>
+  </div>
+</body>
+</html>
